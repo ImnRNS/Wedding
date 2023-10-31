@@ -483,15 +483,15 @@ footer li {
   }
   
   /* ponsel */
-  @media (max-width: 589) {
+  @media (max-width: 500) {
     html {
       font-size: 60%;
     }
     
     .simply-countdown > .simply-section {
-      width: 15px;
-      height: 15px;
-      padding: 20px;
+      width: 5px;
+      height: 5px;
+      padding: 10px;
     }
     .home .couple h4 {
       font-size: 2rem;
