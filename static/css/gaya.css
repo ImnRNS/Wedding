@@ -489,7 +489,9 @@ footer li {
     }
     
     .simply-countdown > .simply-section {
-      max-width: 100%;
+      width: 15px;
+      height: 15px;
+      padding: 20px;
     }
     .home .couple h4 {
       font-size: 2rem;
