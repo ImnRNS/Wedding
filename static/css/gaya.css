@@ -489,7 +489,7 @@ footer li {
     }
     
     .simply-countdown > .simply-section {
-     overflow: auto;
+     overflow-x: auto;
     }
     .home .couple h4 {
       font-size: 2rem;
