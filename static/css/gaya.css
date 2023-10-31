@@ -6,7 +6,7 @@
 
 
 body {
-    font-size: 1,2rem;
+    font-size: 1rem;
     font-family: 'Work Sans', sans-serif;
     min-height: 4000px;
 }
@@ -41,14 +41,14 @@ body {
 
 .hero h1{
     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 .hero h4{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .hero p {
     font-size: 1.5rem;
-    font-weight: 1000;
+     
 }
 
 .hero a {
@@ -483,13 +483,13 @@ footer li {
   }
   
   /* ponsel */
-  @media (max-width: 576px) {
+  @media (max-width: 589) {
     html {
       font-size: 60%;
     }
     
     .simply-countdown > .simply-section {
-      padding: 45px; /* Sesuaikan nilai ini sesuai kebutuhan */
+      padding: 10px; /* Sesuaikan nilai ini sesuai kebutuhan */
       margin: 3px;
     }
     .home .couple h4 {
@@ -515,16 +515,16 @@ footer li {
       width: 65%;
       transform: translateX(-10px);
     }
-
+    
+    .timeline li .timeline-panel p{
+      font-size: 1.5rem;
+    }
     .timeline li .timeline-panel::before{
       top: 30px;
     }
 
     .timeline li .timeline-panel::after{
       top: 31px;
-    }
-    .timeline li .timeline-panel p{
-      font-size: 1.5rem;
     }
   }
   
