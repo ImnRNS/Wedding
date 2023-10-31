@@ -489,8 +489,7 @@ footer li {
     }
     
     .simply-countdown > .simply-section {
-      padding: 10px; /* Sesuaikan nilai ini sesuai kebutuhan */
-      margin: 3px;
+      max-width: 100%;
     }
     .home .couple h4 {
       font-size: 2rem;
@@ -514,11 +513,8 @@ footer li {
     .timeline li .timeline-panel {
       width: 65%;
       transform: translateX(-10px);
-    }
-    
-    .timeline li .timeline-panel p{
-      font-size: 1.5rem;
-    }
+    } 
+
     .timeline li .timeline-panel::before{
       top: 30px;
     }
