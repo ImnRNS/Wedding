@@ -410,7 +410,7 @@ footer li {
     }
   
     .simply-countdown > .simply-section {
-      padding: 70px;
+      padding: 80px;
     }
     .home .heart {
        display: none;
@@ -457,7 +457,7 @@ footer li {
     }
   
     .simply-countdown > .simply-section {
-      padding: 60px;
+      padding: 50px;
       margin: 5px;
     }
     
@@ -483,48 +483,50 @@ footer li {
   }
   
   /* ponsel */
-  @media (max-width: 500) {
-    html {
-      font-size: 60%;
-    }
-    
-    .hero .simply-countdown {
-      width: auto;
-      height: auto;
-      padding: 10px;
-      margin: 10px;
-      overflow-x: auto;
-    }
-    .home .couple h4 {
-      font-size: 2rem;
-      font-weight: 200;
-    }
-    .home .couple h3{
-      font-size: 2.6rem;
-      font-weight: 300;
-    }
-    .home .couple img {
-      transform: translateX(20%)translateY(35%);
-    }  
-    .home .couple p {
-      font-size: 1.3rem;
-    }
-    .timeline li .timeline-image {
-      width: 98px;
-      height: 98px;
-    }
-
-    .timeline li .timeline-panel {
-      width: 65%;
-      transform: translateX(-10px);
-    } 
-
-    .timeline li .timeline-panel::before{
-      top: 30px;
-    }
-
-    .timeline li .timeline-panel::after{
-      top: 31px;
-    }
+@media (max-width: 708px) {
+  html {
+    font-size: 60%;
   }
+  .simply-countdown > .simply-section {
+    padding: 30px;
+    margin: -1px;
+  }
+  
+  .home .couple h4 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .home .couple h3 {
+    font-size: 2.6rem;
+    font-weight: 300;
+  }
+
+  #man {
+    transform: translateX(40%) translateY(45%); /* Geser ke kanan dan ke bawah */
+  }
+
+  .home .couple p {
+    font-size: 1.3rem;
+  }
+
+  .timeline li .timeline-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(10px); /* Geser ke kanan */
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+}
+
   
